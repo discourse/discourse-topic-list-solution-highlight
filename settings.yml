@@ -1,0 +1,8 @@
+background_color: 
+  default: "#eefbdc"
+  description: "CSS background color, when using a hex be sure to include the #"
+
+
+solved_translation: 
+  default: "solution"
+  description: "This is a word from the title text in the solved topic status, which is being used to target with CSS"
