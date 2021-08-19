@@ -1,5 +1,8 @@
 .topic-list tr {
   position: relative;
+  .topic-list-item .main-link {
+    position: static;
+  }
   .topic-status[title*="solution"] {
     &:before {
       content: "";
