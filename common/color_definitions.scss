@@ -1,5 +1,5 @@
 $solved-bg-color: dark-light-choose($solved-background-color, $solved-background-color-dark);
 
 :root {
-  --solved-background-color: url(#{$solved-bg-color});
+  --solved-background-color: #{$solved-bg-color};
 }
