@@ -11,7 +11,7 @@
       right: 0;
       top: 0;
       bottom: 0;
-      background: #{$background_color};
+      background: var(--solved-background-color);
       z-index: -1;
     }
   }  

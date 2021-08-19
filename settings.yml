@@ -1,5 +1,9 @@
-background_color: 
+solved_background_color: 
   default: "#eefbdc"
+  description: "CSS background color, when using a hex be sure to include the #"
+
+solved_background_color_dark: 
+  default: "red"
   description: "CSS background color, when using a hex be sure to include the #"
 
 
