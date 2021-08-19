@@ -3,9 +3,8 @@ solved_background_color:
   description: "CSS background color, when using a hex be sure to include the #"
 
 solved_background_color_dark: 
-  default: "red"
-  description: "CSS background color, when using a hex be sure to include the #"
-
+  default: "#242d19"
+  description: "CSS background color when dark mode is enabled, when using a hex be sure to include the #"
 
 solved_translation: 
   default: "solution"
