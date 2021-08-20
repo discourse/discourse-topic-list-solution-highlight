@@ -1,5 +1,5 @@
 .topic-list tr {
-  position: relative;
+  position: relative !important;
   &.topic-list-item .main-link {
     position: static;
   }
