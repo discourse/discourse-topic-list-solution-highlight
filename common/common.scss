@@ -14,17 +14,17 @@
       background: var(--solved-background-color);
       z-index: -1;
     }
-  }  
+  }
 }
 
 .mobile-view {
-  .topic-list { 
-    tr { 
+  .topic-list {
+    tr {
       .topic-status[title*="solution"] {
         &:before {
           z-index: 0;
         }
-      }  
+      }
     }
     td {
       position: relative;
@@ -33,7 +33,7 @@
       position: static;
       .topic-status:not([title*="solution"]) {
         position: relative;
-        z-index: 1
+        z-index: 1;
       }
       a.title {
         position: relative;
