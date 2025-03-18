@@ -1,10 +1,12 @@
 .topic-list tr {
   position: relative !important;
+
   &.topic-list-item .main-link {
     position: static;
   }
+
   .topic-status[title*="solution"] {
-    &:before {
+    &::before {
       content: "";
       position: absolute;
       left: 0;
@@ -21,25 +23,30 @@
   .topic-list {
     tr {
       .topic-status[title*="solution"] {
-        &:before {
+        &::before {
           z-index: 0;
         }
       }
     }
+
     td {
       position: relative;
     }
+
     .main-link {
       position: static;
+
       .topic-status:not([title*="solution"]) {
         position: relative;
         z-index: 1;
       }
+
       a.title {
         position: relative;
         z-index: 1;
       }
     }
+
     .pull-left {
       position: relative;
       z-index: 1;
